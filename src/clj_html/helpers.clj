@@ -1,6 +1,6 @@
 (ns clj-html.helpers
-  (:use [clj-html.core       :only (html domap-str)]
-        [clojure.contrib.def :only (defvar)]))
+  (:use clj-html.core
+        clojure.contrib.def))
 
 ; Derived from compojure
 
