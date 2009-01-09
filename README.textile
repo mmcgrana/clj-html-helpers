@@ -1,3 +1,7 @@
 h3. clj-html-helpers
 
 A small collection of HTML template helpers for the "clj-html":http://github.com/mmcgrana/clj-html Clojure HTML library, borrowed largely from "compojure":http://github.com/weavejester/compojure/tree/master.
+
+---
+
+Copyright 2009 Mark McGranaghan and released under an MIT license.
