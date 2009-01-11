@@ -1,8 +1,6 @@
 (ns clj-html.helpers
-  (:use clj-html.core
+  (:use (clj-html core utils)
         clojure.contrib.def))
-
-; Derived from compojure
 
 (defn escape-html
   "Change special characters into HTML character entities."
