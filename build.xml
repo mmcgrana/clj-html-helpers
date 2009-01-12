@@ -10,9 +10,9 @@
     <delete file="${jarfile}"/>
   </target>
 
-  <target name="jar"
-          description="Create jar file.">
+  <target name="jar" description="Create jar file.">
     <jar jarfile="${jarfile}">
+      <path location="LICENSE"/>
       <fileset dir="./src" includes="clj_html/**/*.clj"/>
     </jar>
   </target>
