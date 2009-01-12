@@ -5,8 +5,7 @@
 
   <property name="jarfile" location="clj-html-helpers.jar"/>
 
-  <target name="clean"
-          description="Remove generated files and directories.">
+  <target name="clean" description="Remove generated files and directories.">
     <delete file="${jarfile}"/>
   </target>
 
